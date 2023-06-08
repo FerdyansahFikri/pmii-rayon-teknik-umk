@@ -1,0 +1,174 @@
+/* style.css */
+
+/* Gaya umum */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #F7FAFF; /* Warna latar belakang biru muda */
+}
+
+header {
+  background-color: #0F3152;
+  color: #FFC72C;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  font-size: 24px;
+  margin: 0;
+  text-align: center;
+}
+
+/* Gaya navbar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0F3152; /* Warna latar belakang navbar */
+  padding: 10px 20px;
+
+
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  
+  display: flex;
+  align-items: center;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 3px;
+  
+}
+
+nav ul li a {
+  color: #FFC72C; /* Warna teks kuning */
+  text-decoration: none;
+  padding: 4px;
+
+}
+
+nav ul li a:hover {
+  background-color: #FFC72C; /* Warna latar belakang kuning saat dihover */
+  color: #0F3152; /* Warna teks biru tua saat dihover */
+}
+
+
+  /* tampilan beranda */
+  h2 {
+    position: relative;
+    animation: slideAnimation 5s linear infinite;
+    display: inline-block;
+    margin-bottom: 10px; /* Atur jarak bawah teks */
+    top: -50px;
+  }
+  
+  @keyframes slideAnimation {
+    0% {
+      transform: translateX(100%) translateY(10px); /* Geser teks ke kanan dan sedikit ke atas */
+      opacity: 0;
+      color: #0F3152; /* Warna awal teks */
+    }
+    50% {
+      transform: translateX(0%) translateY(0%); /* Kembali ke posisi awal */
+      opacity: 1;
+      color: #FFEF00; /* Warna tengah teks */
+    }
+    100% {
+      transform: translateX(-100%) translateY(10px); /* Geser teks ke kiri dan sedikit ke atas */
+      opacity: 0;
+      color: #F9A825; /* Warna akhir teks */
+    }
+  }
+  
+ .hero p {
+    background: linear-gradient(to right, rgba(255, 255, 0, 0) 10%, #FFFF00 40%, #FFFF00 60%, rgba(255, 255, 0, 0) 90%);
+    padding: auto;
+    color: #0F3152;
+    border-radius: 10px;
+    position: relative;
+    top: -50px;
+  }
+  
+   
+
+
+
+  
+  /* Gaya halaman beranda */
+  .hero {
+    background-image: url('background.JPG');
+    background-size: cover;
+    background-position: center;
+    padding: 190px;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .hero h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    
+  }
+  
+  .hero p {
+    font-size: 18px;
+    line-height: 1.5;
+   
+  }
+  
+
+  
+  /* Gaya footer */
+  footer {
+    background-color: #0F3152; /* Warna latar belakang biru tua */
+    color: #0F3152; /* Warna teks kuning */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer p {
+    background: linear-gradient(to right, rgba(255, 255, 0, 0) 10%, #FFFF00 40%, #FFFF00 60%, rgba(255, 255, 0, 0) 90%);
+    margin: 0;
+    padding: auto;
+  }
+  
+
+  /* Logo pmii */
+
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 80px;
+    height: auto;
+    margin-right: 10px;
+  }
+  
+  .logo h1 {
+    font-size: 18px;
+    margin: 0;
+  }
+
+  
+
+
+
+
+
+  

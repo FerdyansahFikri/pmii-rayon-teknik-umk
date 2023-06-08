@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F7FAFF; /* Warna latar belakang biru muda */
+  }
+  
+  header {
+    background-color: #0F3152; /* Warna latar belakang biru tua */
+    color: #FFC72C; /* Warna teks kuning */
+    padding: 20px;
+  }
+  
+  header h1 {
+    font-size: 24px;
+    margin: 0;
+    text-align: center;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #FFC72C; /* Warna teks kuning */
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  nav ul li a:hover {
+    background-color: #FFC72C; /* Warna latar belakang kuning saat dihover */
+    color: #0F3152; /* Warna teks biru tua saat dihover */
+  }
+
+  main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+  }
+ 
+  /*hubungi*/
+section.contact {
+    text-align: center;
+  }
+  
+  section.contact h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  section.contact p {
+    margin-bottom: 20px;
+  }
+  
+  form {
+    text-align: left;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  input[type="submit"] {
+    background-color: #0F3152;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  
+  }
+  
+  input[type="submit"]:hover {
+    background-color:yellow;
+  }
+  
+
+  footer {
+    background-color: #0F3152; /* Warna latar belakang biru tua */
+    color: #0F3152; /* Warna teks kuning */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer p {
+    background: linear-gradient(to right, rgba(255, 255, 0, 0) 10%, #FFFF00 40%, #FFFF00 60%, rgba(255, 255, 0, 0) 90%);
+    margin: 0;
+    padding: auto;
+  }

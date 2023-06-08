@@ -1,0 +1,153 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F7FAFF; /* Warna latar belakang biru muda */
+  }
+  
+  header {
+    background-color: #0F3152; /* Warna latar belakang biru tua */
+    color: #FFC72C; /* Warna teks kuning */
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  header h1 {
+    font-size: 24px;
+    margin: 0;
+    text-align: center;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #FFC72C; /* Warna teks kuning */
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  nav ul li a:hover {
+    background-color: #FFC72C; /* Warna latar belakang kuning saat dihover */
+    color: #0F3152; /* Warna teks biru tua saat dihover */
+  }
+
+
+/* CSS untuk profil */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  section.about {
+    text-align: center;
+  }
+  
+  section.about p {
+    line-height: 1.5;
+    text-align: justify;
+    color: #333;
+  }
+  
+  section.vision-mission {
+    text-align: center;
+  }
+  
+  section.vision-mission h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  section.vision-mission h3 {
+    margin-top: 20px;
+    text-align: center;
+    color: #333;
+  }
+  
+  section.vision-mission ul {
+    padding-left: 20px;
+    text-align: justify;
+    color: #333;
+  }
+  
+  section.history {
+    text-align: center;
+  }
+  
+  section.history p {
+    text-align: justify;
+    color: #333;
+  }
+  
+  section.rayon-history {
+    text-align: center;
+  }
+  
+  section.rayon-history p {
+    text-align: justify;
+    color: #333;
+  }
+  
+  /* animasi teks profil */
+  section {
+    opacity: 0;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  section.about {
+    animation: fadeIn 1s ease-in-out forwards;
+  }
+  
+  section.history {
+    animation: fadeIn 1s ease-in-out forwards;
+    animation-delay: 0.5s;
+  }
+  
+  section.rayon-history {
+    animation: fadeIn 1s ease-in-out forwards;
+    animation-delay: 1s;
+  }
+  
+  section.vision-mission {
+    animation: fadeIn 1s ease-in-out forwards;
+    animation-delay: 1.5s;
+  }
+  
+
+
+  footer {
+    background-color: #0F3152; /* Warna latar belakang biru tua */
+    color: #0F3152; /* Warna teks kuning */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer p {
+    background: linear-gradient(to right, rgba(255, 255, 0, 0) 10%, #FFFF00 40%, #FFFF00 60%, rgba(255, 255, 0, 0) 90%);
+    margin: 0;
+    padding: auto;
+  }
